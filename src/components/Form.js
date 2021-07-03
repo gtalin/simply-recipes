@@ -82,6 +82,7 @@ const Form = () => (
         aria-describedby="emailHelp"
         placeholder="Name"
         name="name"
+        required
       />
       {/* <Small id="nameHelp" className="form-text text-muted">
         We&apos;ll never share your details with anyone else.
@@ -97,6 +98,7 @@ const Form = () => (
         aria-describedby="emailHelp"
         placeholder="email"
         name="email"
+        required
       />
       {/* <Small id="emailHelp" className="form-text text-muted">
         We&apos;ll never share your email with anyone else.
@@ -113,6 +115,7 @@ const Form = () => (
         rows="5"
         placeholder="Message"
         name="message"
+        required
       />
     </div>
     <Button>Submit</Button>
